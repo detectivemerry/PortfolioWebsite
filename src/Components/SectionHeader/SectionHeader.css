@@ -1,0 +1,27 @@
+.section-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+hr {
+    margin: 12px 0;
+    border: 0;
+    text-align: center;
+    
+    &:before {
+      content: "\2022 \2022 \2022";
+      font-size: 50px;
+      color: white;
+    }
+}
+
+/* .section-seperator{
+    flex:1;
+} */

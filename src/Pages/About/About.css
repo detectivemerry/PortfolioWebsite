@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh;
+}
+
+img{
+    border-radius : 50%;
+    height:20vh;
+    width: 20vh;
+}
+
+.portfolio-dp{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.about-section-title{
+    color:red;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    margin: 2vh;
+} 
+
+.iconImg{
+    height:5vh;
+    width: 5vh;
+}
