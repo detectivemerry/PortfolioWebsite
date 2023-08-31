@@ -1,0 +1,46 @@
+@import "../../colors.module.css";
+
+.landing {
+  height: 100vh;
+  width: auto;
+  composes: landingBg from "../../colors.module.css";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  composes: textColor from "../../colors.module.css";
+  composes: fontFamily from "../../index.module.css";
+}
+
+.highlight {
+  color: lightblue;
+  composes: landingBg from "../../colors.module.css";
+}
+
+.portfolioButton{
+  background-color: transparent;
+  color : #FBFAF5;
+  border: 3px solid #FBFAF5;
+} 
+
+.portfolioButton:hover{
+  border: solid 2px white;
+  background-color: white;
+  color:#221C35;
+}
+
+.viewWorkButton{
+  composes: portfolioButton;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  padding:1.5vh;
+  font-size: 1.5vw;
+  transition: all 500ms linear;
+  transition-delay: 100ms;
+}
+
+.introductionText{
+  font-size: 3vw;
+  text-align: center;
+  composes: landingBg from "../../colors.module.css";
+}

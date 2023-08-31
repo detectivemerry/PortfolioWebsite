@@ -1,16 +1,25 @@
-import './App.css'
+import styles from "./App.module.css"
+import Particles from "react-tsparticles"
+import particlesConfig from "../../config/particles.config"
 
 function App() {
 
   return (
     <>
-      <div className = "landing">
-        <div className = "introduction-text">
-          Hello, My name is <span className='highlight'>Teo Jia Sheng.</span><br />
+    {/* <Particles param = {particlesConfig} className = {styles.}> */}
+      <div className = {styles.landing}>
+        <div className = {styles.introductionText}>
+        <div>
+          Hello, My name is <span className={styles.highlight}>Teo Jia Sheng.</span>
+        </div>
+        <div>
           Full stack web developer.
         </div>
-        <button className='view-work-button'>View my work</button>
+
+        </div>
+        <button className={styles.viewWorkButton}>View my work</button>
       </div>
+      {/* </Particles> */}
     </>
   )
 }

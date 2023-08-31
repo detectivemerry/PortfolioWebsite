@@ -1,20 +1,20 @@
-import './Project.css'
+import styles from './Project.module.css'
 
 function Project({project}) {
     const {projectTitle, projectDescription, projectImgUrl, liveDemoLink, githubLink} = project
     return (
-        <div className = "project-card">
-            <div className = "project-img">
-                {projectImgUrl}
+        <div className = {styles.projectCard}>
+            <div className = {styles.projectImg}>
+                <img src = {projectImgUrl} />
             </div>
-            <div className = "project-description-container">
-                <div className="project-description">
-                    <h1>{projectTitle}</h1>
+            <div className = {styles.projectDescriptionContainer}>
+                <div className= {styles.projectDescription}>
+                    <div className = {styles.projectTitle}>{projectTitle}</div>
                     {projectDescription}
                 </div>
-                <div className = "project-buttons">
-                    {liveDemoLink && <button>live demo</button>}
-                    {githubLink && <button>github demo</button>}
+                <div className = {styles.projectButtons}>
+                    {githubLink && <button>Github repo</button>}
+                    {liveDemoLink && <button>Live demo</button>}
                 </div>
             </div>
         </div>

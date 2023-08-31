@@ -1,12 +1,12 @@
-import './SectionHeader.css'
+import styles from './SectionHeader.module.css'
 
 function SectionHeader({title}) {
 
   return (
     <>
-        <div className = "section-header">
+        <div className = {styles.sectionHeader}>
             {title}
-            <hr/>
+            <div className = {styles.dots}></div>
         </div>
     </>
   )

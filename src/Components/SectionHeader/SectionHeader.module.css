@@ -1,16 +1,16 @@
-.section-header{
+.sectionHeader{
     text-align: center;
     font-weight: bold;
     font-size: 3vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     color: white;
 }
 
-hr {
+.dots {
     margin: 12px 0;
     border: 0;
     text-align: center;
@@ -21,7 +21,3 @@ hr {
       color: white;
     }
 }
-
-/* .section-seperator{
-    flex:1;
-} */

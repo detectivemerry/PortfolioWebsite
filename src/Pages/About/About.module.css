@@ -1,17 +1,23 @@
+@import "../../colors.module.css";
+@import "../../index.module.css";
+
 .about{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2vh;
+    composes: primaryBg from "../../colors.module.css";
+    composes: textColor from "../../colors.module.css";
+    composes: fontFamily from "../../index.module.css";
 }
 
-img{
+.portfolioDp img{
     border-radius : 50%;
     height:20vh;
     width: 20vh;
 }
 
-.portfolio-dp{
+.portfolioDp{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3vh;
@@ -24,7 +30,7 @@ img{
     margin: 2vh;
 }
 
-.about-section-title{
+.aboutSectionTitle{
     color:red;
     font-size: 2vw;
     text-align: center;

@@ -1,0 +1,29 @@
+@import "../../colors.module.css";
+@import "../../index.module.css";
+
+.contact{
+    composes: primaryBg from "../../colors.module.css";
+    padding: 5vh;
+    font-size: large;
+}
+
+.contactCallToAction{
+    text-align: center;
+    composes: textColor from "../../colors.module.css";
+    composes: fontFamily from "../../index.module.css";
+}
+
+.redText{
+    color: red;
+}
+
+.linkImg {
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+}
+
+.linkImg img{
+    width: 5vw;
+    height: auto;
+}
