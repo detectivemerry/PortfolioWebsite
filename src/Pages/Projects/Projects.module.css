@@ -2,4 +2,7 @@
 
 .projects{
     composes: primaryBg from "../../colors.module.css";
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
 }

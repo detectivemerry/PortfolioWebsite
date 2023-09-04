@@ -3,6 +3,7 @@
 
 .projectCard{
     border: 2px solid lightblue;
+    /* margin-bottom: 3vh; */
     margin-left: 12vw;
     margin-right: 12vw;
     padding-bottom: 6vh;
@@ -14,6 +15,7 @@
     display:flex;
     justify-content: space-between;
     padding:1%;
+    transform: translateX(10px);
 }
 
 .projectImg{
@@ -35,26 +37,38 @@
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
+    /* padding:1%; */
 }
 
 .projectDescription{
     flex:3;
+    margin: 2%;
 }
 
 .projectButtons{
     flex:1;
+    display: flex;
+    justify-content: left;
+    height: 15%;
+    gap: 2%;
+    margin: 2%;
+    align-items: center;
 }
 
 .projectButtons button{
     background-color: transparent;
     color: #FBFAF5;
     border: solid 2px white;
-    padding: 20px;
-    margin-right: 20px;
+    border-radius: 10%;
+    /* padding: 5%; */
+    /* margin-right: 20px; */
     transition: all 500ms linear;
     transition-delay: 100ms;
-    width: 33%;
+    width: 17%;
+    height: 79%;
+    background-color: darkslateblue;
+    font-weight: bolder;
 }
 
 .projectButtons button:hover{
