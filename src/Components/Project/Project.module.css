@@ -3,19 +3,17 @@
 
 .projectCard{
     border: 2px solid lightblue;
-    /* margin-bottom: 3vh; */
-    margin-left: 12vw;
-    margin-right: 12vw;
-    padding-bottom: 6vh;
+    margin-left: 12vmin;
+    margin-right: 12vmin;
+    padding-bottom: 6vmax;
     display: flex;
-    height: 33vh;
     width: auto;
     composes: textColor from "../../colors.module.css";
     composes: fontFamily from "../../index.module.css";
-    display:flex;
     justify-content: space-between;
     padding:1%;
     transform: translateX(10px);
+    height: 20vmax;
 }
 
 .projectImg{
@@ -35,10 +33,6 @@
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    /* padding: 20px; */
-    /* padding:1%; */
 }
 
 .projectDescription{
@@ -50,9 +44,6 @@
     flex:1;
     display: flex;
     justify-content: left;
-    height: 15%;
-    gap: 2%;
-    margin: 2%;
     align-items: center;
 }
 
@@ -61,14 +52,12 @@
     color: #FBFAF5;
     border: solid 2px white;
     border-radius: 10%;
-    /* padding: 5%; */
-    /* margin-right: 20px; */
     transition: all 500ms linear;
     transition-delay: 100ms;
-    width: 17%;
-    height: 79%;
     background-color: darkslateblue;
     font-weight: bolder;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
 }
 
 .projectButtons button:hover{
@@ -79,10 +68,32 @@
 
 .projectTitle{
     text-decoration-line: underline;
-    font-size: xx-large;
-    padding-bottom: 20px;
+    font-size: 2vmax;
+    margin-bottom: 20px;
 }
 
-.square{
-    background-color: grey;
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmin;
+    margin: 20px 0 20px 0;
 }
+
+.tag{
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    padding: 7px;
+    font-size: small;
+    font-family: monospace;
+}
+
+@media (max-width: 600px) {
+    .projectCard {
+      flex-direction: column;
+      height: auto;
+    }
+    .projectTitle{
+        font-size: 3vmax;
+    }    
+  }

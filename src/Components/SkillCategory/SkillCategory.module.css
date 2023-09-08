@@ -1,0 +1,46 @@
+.skillCategory {
+    flex:1;
+    height: 30vmax;
+    color: white;
+}
+
+.categoryTitle{
+    text-align: center;
+    font-weight: 1;
+    padding: 2vmin;
+    font-family: monospace;
+}
+
+.categoryLine{
+    border-bottom: 1px solid white;
+    margin: -1vmax 22vmax 2vmax 22vmax;
+}
+
+@media (max-width: 600px) {
+    .categoryLine {
+        margin: -1vmin 12vmin 4vmin 12vmin;
+    }
+  }
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmax;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageItem{
+    flex:1;
+    font-family: FreeMono, monospace;
+}
+
+.image img{
+    height: 5vmin;
+}

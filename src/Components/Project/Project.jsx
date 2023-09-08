@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 function Project({ project }) {
 
-    const { projectTitle, projectDescription, projectImgUrl, liveDemoLink, githubLink } = project
+    const { projectTitle, projectDescription, projectImgUrl, liveDemoLink, githubLink, tags } = project
 
     const cardVariants = {
         visible: { opacity: 1, transition: { duration: 1, delay: 0.2 }, x: 0 },
@@ -45,6 +45,14 @@ function Project({ project }) {
             <div className={styles.projectDescriptionContainer}>
                 <div className={styles.projectDescription}>
                     <div className={styles.projectTitle}>{projectTitle}</div>
+                        <div className={styles.tags}>
+                        {tags && tags.map((tag)=>{
+                            return (
+                            <div className={styles.tag}>
+                                {tag}
+                            </div>)
+                        })}
+                        </div>
                     {projectDescription}
                 </div>
                 <div className={styles.projectButtons}>

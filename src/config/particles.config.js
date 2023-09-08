@@ -23,7 +23,7 @@ const particlesConfig = {
     "defaultThemes": {},
     "delay": 0,
     "fullScreen": {
-      "enable": false,
+      "enable": true,
       "zIndex": -1
     },
     "detectRetina": true,

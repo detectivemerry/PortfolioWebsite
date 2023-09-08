@@ -21,9 +21,19 @@
     display: flex;
     justify-content: center;
     padding: 3vh;
+    gap : 10px;
 }
 
 .linkImg img{
-    width: 5vw;
+    width: 5vmax;
     height: auto;
+    background-color: darkslateblue;
+    border-radius: 20% ;
+    transition: all 500ms linear;
+    transition-delay: 100ms;
+}
+
+.linkImg img:hover{
+    background-color: white;
+    color:#221C35;
 }

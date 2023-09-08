@@ -8,18 +8,12 @@ function Projects({projects}) {
   return (
     <motion.div 
       className = {styles.projects}
+      id = "Projects"
       >
       <SectionHeader title="Projects" />
         {projects && projects.map((project, idx)=>{
-          return <Project key = {idx} project = {project} />
-        //   <motion.Project
-        //   ref={ref}
-        //   animate={{ scale: 2 }}
-        //   initial="hidden"
-        //   variants={squareVariants}
-        //   className="square"
-        // ></motion.Project>
-        })}
+            return <Project key = {idx} project = {project} />
+          })}
     </motion.div>
   )
 }

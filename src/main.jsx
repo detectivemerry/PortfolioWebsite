@@ -10,7 +10,12 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <About aboutDescription = {data.aboutDescription} aboutDevelopmentSkill = {data.aboutDevelopmentSkill} aboutInterest={data.aboutInterest} iconImgs = {data.iconImgs}/>
+    <About  
+      aboutDescription = {data.aboutDescription} 
+      aboutDevelopmentSkill = {data.aboutDevelopmentSkill}
+      aboutDevelopmentSkillDescription = {data.aboutDevelopmentSkillDescription}
+      aboutWorkExperience = {data.aboutWorkExperience} 
+      aboutInterest={data.aboutInterest} iconImgs = {data.iconImgs}/>
     <Projects projects = {data.projects} />
     <Contact/>
   </React.StrictMode>,

@@ -4,6 +4,13 @@
   padding-right: 18vw;
 }
 
+@media (max-width: 600px) {
+  .text {
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+  }
+}
+
 .fontFamily{
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-family: Work Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
