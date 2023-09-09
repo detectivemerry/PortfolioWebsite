@@ -56,8 +56,8 @@ function Project({ project }) {
                     {projectDescription}
                 </div>
                 <div className={styles.projectButtons}>
-                    {githubLink && <button>Github repo</button>}
-                    {liveDemoLink && <button>Live demo</button>}
+                    {githubLink && <a href = {githubLink}><button>Github repo</button></a>}
+                    {liveDemoLink && <a href = {liveDemoLink}><button>Live demo</button></a>}
                 </div>
             </div>
 

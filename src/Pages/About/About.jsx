@@ -26,12 +26,7 @@ function About({  aboutDescription,
         <div className={styles.aboutDescription}></div>
         <p>
         Full stack software engineer and a recent computer science graduate from Nanyang Technological University (NTU). I've developed several full-stack web applications in Javascript (using FERN stack) for school projects. I am currently going through the Odin Project course, brushing up my full-stack development fundamentals as well. 
-        {/* <a href="https://www.linkedin.com/in/caleb-jia-sheng/"><img class = {styles.iconImg} src= {githubLogo}/></a>
-        <a href="https://github.com/detectivemerry?tab=repositories"><img class = {styles.iconImg} src={linkedInLogo}/></a> */}
         </p>  
-        {/* {aboutDescription && aboutDescription.split('\n').map((paragraph, index) => (
-          <div key={index}>{paragraph}</div>
-        ))} */}
       </div>
 
       <div className = {indexStyle.text}>
