@@ -2,7 +2,7 @@ import styles from './About.module.css'
 import indexStyle from '../../index.module.css'
 import SectionHeader from '../../Components/SectionHeader/SectionHeader.jsx'
 import SkillCategory from '../../Components/SkillCategory/SkillCategory.jsx'
-import imgUrl from "../../assets/portfolio_dp.jpg"
+import imgUrl from "../../assets/portfolio_dp.png"
 import githubLogo from "../../assets/github.png"
 import linkedInLogo from "../../assets/linkedin.png"
 

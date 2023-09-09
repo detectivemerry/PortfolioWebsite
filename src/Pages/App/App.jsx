@@ -26,7 +26,7 @@ function App() {
             initial={{scale: 0.2, opacity: 0}}
           >
           <div>
-            Hello, My name is <span className={styles.highlight}>Teo Jia Sheng.</span>
+            Hello, My name is <span className={styles.highlight}>Teo Jia Sheng, Caleb.</span>
           </div>
           <div>
             Full stack Software Engineer.
