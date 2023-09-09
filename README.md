@@ -1,8 +1,14 @@
-# React + Vite
+## Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello everyone! This is the repo for my portfolio website. I built the portfolio using CSS modules, React and the Vite toolkit. The website is hosted by AWS amplify.\
+[View the live version here](https://www.teojiasheng.com)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+The portfolio website includes the following features:
+
+- **About me:** An introduction to who I am and an overview of the programming languages, tools, and technologies I am proficient in.
+- **Projects:** A collection of my projects with descriptions, images, and links.
+- **Contact:** A way for visitors to get in touch with me through my social media profiles.
+
